@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.8">
+  <diagram name="Page-1" id="t8oNEoxEPqjJMePVeAX2">
+    <mxGraphModel dx="1050" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="310" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-3" value="&lt;div&gt;Service: biocad-devops-testing-service&lt;/div&gt;&lt;div&gt;&lt;i&gt;NodePort&lt;/i&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="130" width="310" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-5" value="Deployment: biocad-devops-testing-deployment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-6" value="replica" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-7" value="replica" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-8" value="targetPort" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-9" value="32777" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-10" value="32767" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-11" value="port" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-12" value="TCP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-13" value="nodePort" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-14" value="containerPort" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-15" value="32777" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-17" value="32777" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZI07NJ3ReTCEBvbRmIWo-2" target="ZI07NJ3ReTCEBvbRmIWo-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZI07NJ3ReTCEBvbRmIWo-19" value="image: hello_world_biocad_testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
